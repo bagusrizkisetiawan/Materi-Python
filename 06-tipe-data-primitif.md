@@ -13,7 +13,7 @@ Setiap data dalam Python memiliki "jenis" atau **tipe data**. Ini penting agar P
 
 Mari kita gunakan tipe data `int` dan `float` untuk membuat kalkulator.
 
-**A. Buat File `kalkulator_dasar.py` dan Salin Kode:**
+**Buat File `kalkulator_dasar.py` dan Salin Kode:**
 
 ```python
 # Variabel angka1 dan angka2 adalah tipe data Integer (int)

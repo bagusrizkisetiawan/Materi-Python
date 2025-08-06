@@ -20,7 +20,7 @@ Python mengikuti aturan **PEMDAS/BODMAS** (kurung, pangkat, kali/bagi, tambah/ku
 
 ### 💻 Proyek: "Kalkulator Luas Bangun Datar"
 
-**A. Buat File `kalkulator_luas.py` dan Salin Kode:**
+**Buat File `kalkulator_luas.py` dan Salin Kode:**
 
 ```python
 # Menghitung Luas Persegi Panjang

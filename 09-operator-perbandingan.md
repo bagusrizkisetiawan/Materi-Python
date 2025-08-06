@@ -19,7 +19,7 @@ Operator ini digunakan untuk membandingkan dua nilai. Hasilnya SELALU `True` ata
 
 Program ini akan menghasilkan nilai `True` atau `False` berdasarkan perbandingan usia.
 
-**A. Buat File `cek_usia.py` dan Salin Kode:**
+**Buat File `cek_usia.py` dan Salin Kode:**
 
 ```python
 usia_pemohon = 18

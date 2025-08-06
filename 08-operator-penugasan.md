@@ -15,7 +15,7 @@ Operator dasar adalah `=`. Operator lainnya adalah jalan pintas:
 
 ### 💻 Proyek: "Simulasi Poin Game"
 
-**A. Buat File `game_poin.py` dan Salin Kode:**
+**Buat File `game_poin.py` dan Salin Kode:**
 
 ```python
 poin = 100
