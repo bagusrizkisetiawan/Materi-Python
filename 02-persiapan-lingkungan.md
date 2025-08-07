@@ -11,12 +11,12 @@ Sebelum kita bisa mulai memberi perintah ke komputer, kita perlu menyiapkan "are
 
 Proyek ini bertujuan untuk memastikan semua alat yang kita instal sudah berjalan dengan benar.
 
-**A. Buat File Baru**
+**Buat File Baru**
 
 - Buka aplikasi VS Code.
 - Buat file baru dengan nama `tes_instalasi.py`. Pastikan akhirannya `.py`.
 
-**B. Salin Kode Ini**
+**Salin Kode Ini**
 
 - Ketik atau salin kode sederhana di bawah ini ke dalam file `tes_instalasi.py`.
   ```python
@@ -24,7 +24,7 @@ Proyek ini bertujuan untuk memastikan semua alat yang kita instal sudah berjalan
   print("Saya siap untuk mulai coding. Semangat!")
   ```
 
-**C. Jalankan Program**
+**Jalankan Program**
 
 - Buka terminal di dalam VS Code (biasanya ada di bagian bawah).
 - Ketik perintah `python tes_instalasi.py` lalu tekan Enter.
