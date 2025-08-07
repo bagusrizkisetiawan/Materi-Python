@@ -1,4 +1,4 @@
-# 🛠️ 02: Persiapan Lingkungan
+# 🛠️ 02: Persiapan Lingkungan (Environment)
 
 Sebelum kita bisa mulai memberi perintah ke komputer, kita perlu menyiapkan "area kerja" atau **lingkungan** kita terlebih dahulu. Ini hanya perlu dilakukan sekali.
 
