@@ -25,5 +25,5 @@ Penting: Apapun yang diketik pengguna, `input()` akan selalu menganggapnya sebag
 
 ```python
 # Program akan menampilkan "Siapa namamu? " dan menunggu ketikan pengguna
-nama_pengguna = input("Siapa namamu? ")
+input("Siapa namamu? ")
 ```
