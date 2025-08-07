@@ -1,6 +1,6 @@
-# 📝 04: String (Teks)
+# 📝 04: String & Integer (Teks dan Angka)
 
-Dalam Python, semua data berupa teks dikenal sebagai **string**. String adalah salah satu tipe data paling fundamental.
+Dalam Python, semua data berupa teks dikenal sebagai **string** dan angka dikenal sebagai **integer**. String dan integer adalah tipe data paling fundamental.
 
 ### Aturan Membuat String
 
