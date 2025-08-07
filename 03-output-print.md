@@ -6,7 +6,7 @@ Konsep paling dasar dalam pemrograman adalah **Input -> Proses -> Output**.
 - **Proses**: Apa yang komputer lakukan pada data.
 - **Output**: Hasil yang ditampilkan komputer.
 
-Hari ini kita fokus pada **Output**. Perintah paling dasar untuk menampilkan output di Python adalah `print()`.
+kali ini kita fokus pada **Output** dan **Input**.. Perintah paling dasar untuk menampilkan output di Python adalah `print()`.
 
 ### Apa itu `print()`?
 
