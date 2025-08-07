@@ -1,4 +1,4 @@
-# 🖨️ 03: Output (Fungsi Print)
+# 🖨️ 03: Output dan input (Fungsi Print dan input)
 
 Konsep paling dasar dalam pemrograman adalah **Input -> Proses -> Output**.
 
