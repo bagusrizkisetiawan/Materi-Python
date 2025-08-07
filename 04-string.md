@@ -12,3 +12,15 @@ Dalam Python, semua data berupa teks dikenal sebagai **string**. String adalah s
 print("Ini adalah sebuah string.")
 print('Ini juga sebuah string.')
 ```
+
+**Perbedaan Kunci: String vs. Integer 💡**
+
+Sekilas, "5" dan 5 mungkin terlihat sama, tetapi bagi Python keduanya sangat berbeda.
+
+- Integer (tipe data int atau float) digunakan untuk perhitungan matematika.
+- String (tipe data str) adalah teks, bahkan jika karakter di dalamnya adalah digit.
+
+```python
+# Contoh adalah Angka (Integer) dalam python
+print(5)
+```

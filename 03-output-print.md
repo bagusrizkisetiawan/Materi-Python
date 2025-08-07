@@ -16,3 +16,14 @@ Hari ini kita fokus pada **Output**. Perintah paling dasar untuk menampilkan out
 print("Halo, ini tulisan pertamaku!")
 print(12345)
 ```
+
+### Apa itu `input()`?
+
+`input()` adalah fungsi untuk "berhenti sejenak" dan meminta pengguna mengetikkan sesuatu. Teks yang diketik oleh pengguna akan ditangkap oleh program untuk diproses lebih lanjut.
+
+Penting: Apapun yang diketik pengguna, `input()` akan selalu menganggapnya sebagai teks (string).
+
+```python
+# Program akan menampilkan "Siapa namamu? " dan menunggu ketikan pengguna
+nama_pengguna = input("Siapa namamu? ")
+```
