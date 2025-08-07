@@ -1,12 +1,6 @@
 # 🚀 Variabel dan Format String
 
-Selamat datang di sesi belajar Python! Di sini, kita akan mengupas tuntas cara membuat biodata yang dinamis. Kamu akan belajar bagaimana cara menyimpan informasi dalam "wadah" yang disebut **variabel** dan menampilkannya dengan rapi menggunakan teknik **Format String**.
-
-Siap? Mari kita mulai!
-
----
-
-### 🤔 Langkah 1: Memahami Konsep
+### 🤔 Memahami Konsep
 
 Sebelum coding, kita pahami dulu dua konsep kuncinya:
 

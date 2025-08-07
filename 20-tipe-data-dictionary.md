@@ -47,9 +47,9 @@ inventaris = {
 inventaris["b-322"] = "The Catcher in the Rye"
 
 # Mencari buku berdasarkan ISBN
-kode_buku = "b-122"
-if kode_buku in inventaris:
-    print(f"Buku dengan kode:  {kode_buku} ditemukan: {inventaris[kode_buku]}")
+cari_kode = "b-122"
+if cari_kode in inventaris:
+    print(f"Buku dengan kode:  {cari_kode} ditemukan: {inventaris[cari_kode]}")
 else:
     print("Buku tidak ditemukan.")
 
