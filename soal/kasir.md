@@ -18,7 +18,7 @@ Pengguna akan memasukkan **total belanja** lalu program akan memberikan diskon b
 1. Pengguna memasukkan **total belanja**.
 2. Program menentukan **diskon** berdasarkan total belanja:
    - **> 500.000** → Diskon 15%
-   - **< 200.000** → Diskon 0%
+   - **< 500.000** → Diskon 0%
 3. Program menghitung **total bayar** setelah diskon.
 4. Program menampilkan **struk belanja**.
 
