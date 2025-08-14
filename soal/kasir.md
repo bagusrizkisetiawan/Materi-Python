@@ -41,8 +41,11 @@ diskon = 0
 
 
 
-# totalkan dan tampilkan
+# totalkan harga_belanja di kali diskon di bagi 100
 total_harga =
+
+#tampilkan hasilnya
+print("==============================")
 print (f"diskon anda  : {diskon}%")
 print (f"Total harga  : Rp.{total_harga}")
 ```
