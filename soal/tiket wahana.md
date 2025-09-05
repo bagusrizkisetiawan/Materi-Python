@@ -12,18 +12,18 @@ punya_tiket_vip_input = input("Apakah punya tiket VIP (Y/N)   : ")
 
 print("\n--- Tansaksi Anda --- \n")
 # Memeriksa syarat tinggi badan terlebih dahulu
-if tinggi_badan >= 100 and tinggi_badan <= 200:
+# jika tinggi badan lebih dari 120 dan kurang dari 220
+if :
     # Memeriksa jenis tiket setelah tinggi badan dipastikan sesuai
     if punya_tiket_vip_input == "Y":
         harga_tiket = "Rp 100.000 (Harga Spesial VIP)"
-        print(f"Harga tiket Anda: {harga_tiket}")
     else:
-        if usia < 12:
-            harga_tiket = "Rp 120.000 (Anak-anak)"
+        # jika harga umur di bawah 12 thn maka harga tiket "Rp 120.000 (Anak-anak)"
+        # selain itu "Rp 150.000 (Dewasa)"
+        if :
         else:
-            harga_tiket = "Rp 150.000 (Dewasa)"
 
-        print(f"Harga tiket Anda: {harga_tiket}")
+    print(f"Harga tiket Anda: {harga_tiket}")
 
 else:
     print("\n Maaf, tinggi badan Anda tidak memenuhi syarat untuk wahana ini.")

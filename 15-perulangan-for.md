@@ -44,12 +44,11 @@ for angka in range(1, 6):
 ```python
 import random
 
-# 1. PERSIAPAN GAME
 # Komputer memilih angka acak antara 1 dan 10 (kita persempit jangkauannya agar lebih mudah)
 angka_rahasia = random.randint(1, 10)
 jumlah_kesempatan = 3
 
-# Variabel ini kita sebut "flag" atau penanda. Awalnya kita anggap pemain belum menang.
+# Variabel ini kita sebut "flag" atau penanda.
 pemain_menang = False
 
 print("--- Selamat Datang di Game Tebak Angka! ---")
@@ -57,7 +56,6 @@ print(f"Aku punya angka rahasia antara 1 sampai 10.")
 print(f"Kamu punya {jumlah_kesempatan} kesempatan untuk menebak.")
 
 
-# 2. MEMULAI PERULANGAN
 # Kita akan mengulang proses tebakan sebanyak 'jumlah_kesempatan'
 for kesempatan_ke in range(jumlah_kesempatan):
     print(f"\n--- Kesempatan ke-{kesempatan_ke + 1} ---")
@@ -65,7 +63,6 @@ for kesempatan_ke in range(jumlah_kesempatan):
     # Minta input dari pemain dan langsung ubah menjadi angka (integer)
     tebakan_pemain = int(input("Masukkan tebakanmu: "))
 
-    # 3. LOGIKA PENGECEKAN
     # Cek apakah tebakan pemain sama dengan angka rahasia
     if tebakan_pemain == angka_rahasia:
         print(f"🎉 Selamat! Kamu benar! Angkanya adalah {angka_rahasia}.")
@@ -79,7 +76,6 @@ for kesempatan_ke in range(jumlah_kesempatan):
         print("Angkamu terlalu tinggi! Coba lagi.")
 
 
-# 4. KESIMPULAN GAME (SETELAH LOOP SELESAI)
 # Setelah perulangan selesai, kita cek variabel penanda.
 # Jika pemain TIDAK menang (nilainya masih False), berarti kesempatannya habis.
 if not pemain_menang:

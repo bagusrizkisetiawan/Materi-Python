@@ -18,7 +18,11 @@ Pengguna akan memasukkan **total belanja** lalu program akan memberikan diskon b
 1. Pengguna memasukkan **total belanja**.
 2. Program menentukan **diskon** berdasarkan total belanja:
    - **> 500.000** → Diskon 15%
+<<<<<<< HEAD
    - **< s00.000** → Diskon 0%
+=======
+   - **< 500.000** → Diskon 0%
+>>>>>>> 8130fb0b8728602a080b2bfeabf04d6978af79ae
 3. Program menghitung **total bayar** setelah diskon.
 4. Program menampilkan **struk belanja**.
 
@@ -41,8 +45,11 @@ diskon = 0
 
 
 
-# totalkan dan tampilkan
+# totalkan harga_belanja di kali diskon di bagi 100
 total_harga =
+
+#tampilkan hasilnya
+print("==============================")
 print (f"diskon anda  : {diskon}%")
 print (f"Total harga  : Rp.{total_harga}")
 ```
