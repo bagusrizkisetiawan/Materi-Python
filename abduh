@@ -1,0 +1,18 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $("#chat-form").submit(function (e) {
+        e.preventDefault();
+        var userText = $("#message").val();
+        $("#chatbox").append(
+          "<div class='user-text'><b>Kamu:</b> " + userText + "</div>"
+        );
+        $("#message").val("");
+
+        $.post("/get", { message: userText }, function (data) {
+          $("#chatbox").append(
+            "<div class='bot-text'><b>Bot:</b> " + data + "</div>"
+          );
+          $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+        });
+      });
+    </script>
