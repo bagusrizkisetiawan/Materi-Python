@@ -27,42 +27,63 @@ Kita akan membuat `class` untuk karakter di sebuah game.
 **A. Buat File `game_karakter.py` dan Salin Kode:**
 
 ```python
-# 1. CLASS (Blueprint Karakter)
-class Karakter:
-    # Method __init__ dijalankan secara otomatis saat objek baru dibuat
-    def __init__(self, nama, kekuatan, health):
-        # 3. ATTRIBUTE (Data yang dimiliki setiap karakter)
-        self.nama = nama
-        self.kekuatan = kekuatan
-        self.health = health
-        print(f"Karakter '{self.nama}' telah diciptakan!")
+# 1. CLASS (Blueprint Mobil)
+class Mobil:
+    # Method __init__ dijalankan saat objek mobil baru dibuat
+    def __init__(self, merek, kecepatan, bahan_bakar):
+        # 3. ATTRIBUTE (Data yang dimiliki setiap mobil)
+        self.merek = merek
+        self.kecepatan = kecepatan
+        self.bahan_bakar = bahan_bakar
+        print(f"Mobil '{self.merek}' telah dibuat!")
 
-    # 4. METHOD (Perilaku yang bisa dilakukan karakter)
-    def serang(self, musuh):
-        """Metode untuk menyerang karakter lain."""
-        print(f"{self.nama} menyerang {musuh.nama} dengan kekuatan {self.kekuatan}!")
-        musuh.health -= self.kekuatan
+    # 4. METHOD (Perilaku mobil)
+    def berjalan(self, jarak):
+        """Metode untuk membuat mobil berjalan sejauh jarak tertentu."""
+        print(f"{self.merek} berjalan sejauh {jarak} km dengan kecepatan {self.kecepatan} km/jam.")
+        # Setiap 10 km menghabiskan 1 liter bahan bakar
+        penggunaan_bbm = jarak / 10
+        self.bahan_bakar -= penggunaan_bbm
+        if self.bahan_bakar < 0:
+            self.bahan_bakar = 0
+        print(f"Bahan bakar tersisa: {self.bahan_bakar:.1f} liter")
 
-    def tunjukkan_status(self):
-        """Metode untuk menampilkan status health saat ini."""
-        print(f"Status {self.nama}: Health = {self.health}")
+    def isi_bensin(self, liter):
+        """Metode untuk menambah bahan bakar."""
+        self.bahan_bakar += liter
+        print(f"{self.merek} telah diisi bensin sebanyak {liter} liter. Total sekarang: {self.bahan_bakar:.1f} liter")
+
+    def tampilkan_status(self):
+        """Menampilkan status mobil saat ini."""
+        print(f"Status {self.merek}: Kecepatan = {self.kecepatan} km/jam, Bahan Bakar = {self.bahan_bakar:.1f} liter")
 
 
-# 2. OBJECT (Membuat karakter nyata dari blueprint)
-print("--- Membuat Karakter ---")
-ksatria = Karakter(nama="Aragon", kekuatan=25, health=100)
-penyihir = Karakter(nama="Gandalf", kekuatan=35, health=80)
-print("-" * 25)
+# 2. OBJECT (Membuat mobil nyata dari blueprint)
+print("--- Membuat Mobil ---")
+mobil_sport = Mobil(merek="Ferrari", kecepatan=220, bahan_bakar=50)
+mobil_keluarga = Mobil(merek="Toyota Avanza", kecepatan=120, bahan_bakar=60)
+print("-" * 30)
 
-# --- Simulasi Pertarungan ---
-print("\n--- Pertarungan Dimulai! ---")
-ksatria.tunjukkan_status()
-penyihir.tunjukkan_status()
+# --- Simulasi Perjalanan ---
+print("\n--- Perjalanan Dimulai! ---")
+mobil_sport.tampilkan_status()
+mobil_keluarga.tampilkan_status()
 
-print("\nPenyihir menyerang Ksatria...")
-penyihir.serang(ksatria) # Objek 'penyihir' menggunakan method 'serang' ke objek 'ksatria'
+print("\nFerrari berjalan sejauh 120 km...")
+mobil_sport.berjalan(120)
 
-print("\nStatus setelah serangan:")
-ksatria.tunjukkan_status()
-penyihir.tunjukkan_status()
+print("\nToyota Avanza berjalan sejauh 80 km...")
+mobil_keluarga.berjalan(80)
+
+print("\nStatus setelah perjalanan:")
+mobil_sport.tampilkan_status()
+mobil_keluarga.tampilkan_status()
+
+print("\nMengisi bensin Ferrari sebanyak 20 liter...")
+mobil_sport.isi_bensin(20)
+
+print("\nStatus akhir:")
+mobil_sport.tampilkan_status()
+mobil_keluarga.tampilkan_status()
+
 ```
